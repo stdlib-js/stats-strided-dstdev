@@ -377,7 +377,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats-strided/dnanstdev`][@stdlib/stats/strided/dnanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-strided/dvariance`][@stdlib/stats/strided/dvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats-base/sstdev`][@stdlib/stats/base/sstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/sstdev`][@stdlib/stats/strided/sstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/stdev`][@stdlib/stats/base/stdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array.</span>
 
 </section>
@@ -402,6 +402,11 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
+
+## License
+
+See [LICENSE][stdlib-license].
+
 
 ## Copyright
 
@@ -449,6 +454,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-readme]: https://github.com/stdlib-js/stats-strided-dstdev/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-strided-dstdev/blob/main/branches.md
 
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-strided-dstdev/main/LICENSE
+
 [standard-deviation]: https://en.wikipedia.org/wiki/Standard_deviation
 
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
@@ -461,7 +468,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/dvariance]: https://github.com/stdlib-js/stats-strided-dvariance
 
-[@stdlib/stats/base/sstdev]: https://github.com/stdlib-js/stats-base-sstdev
+[@stdlib/stats/strided/sstdev]: https://github.com/stdlib-js/stats-strided-sstdev
 
 [@stdlib/stats/base/stdev]: https://github.com/stdlib-js/stats-base-stdev
 
