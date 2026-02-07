@@ -112,7 +112,7 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 To use in Observable,
 
 ```javascript
-dstdev = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dstdev@umd/browser.js' )
+dstdev = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dstdev@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -124,7 +124,7 @@ var dstdev = require( 'path/to/vendor/umd/stats-strided-dstdev/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dstdev@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dstdev@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -236,7 +236,7 @@ var v = dstdev.ndarray( 4, 1, x, 2, 1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dstdev@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dstdev@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
