@@ -276,7 +276,7 @@ Computes the [standard deviation][standard-deviation] of a double-precision floa
 const double x[] = { 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 };
 
 double v = stdlib_strided_dstdev( 4, 1.0, x, 2 );
-// returns 2.581989
+// returns ~2.581989
 ```
 
 The function accepts the following arguments:
@@ -298,7 +298,7 @@ Computes the [standard deviation][standard-deviation] of a double-precision floa
 const double x[] = { 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 };
 
 double v = stdlib_strided_dstdev_ndarray( 4, 1.0, x, 2, 0 );
-// returns 2.581989
+// returns ~2.581989
 ```
 
 The function accepts the following arguments:
@@ -423,8 +423,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-strided-dstdev.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-strided-dstdev
 
-[test-image]: https://github.com/stdlib-js/stats-strided-dstdev/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/stats-strided-dstdev/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/stats-strided-dstdev/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-strided-dstdev/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-strided-dstdev/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-strided-dstdev?branch=main
